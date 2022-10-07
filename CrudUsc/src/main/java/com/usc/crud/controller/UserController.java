@@ -20,7 +20,6 @@ public class UserController {
 
     }
 
-
     // create employee rest api
     @PostMapping("/guardar")
     public Empleado createEmployee(@RequestBody Empleado empleado) {
